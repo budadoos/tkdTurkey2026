@@ -12,16 +12,19 @@ body {
     user-select: none;
 }
 
+
 #game-container {
     position: relative;
-    width: 800px;
-    height: 450px;
+    width: 95vw;
+    max-width: 800px;
+    aspect-ratio: 16 / 9;
     background-color: #fff;
     border: 6px solid #2c3e50;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
     overflow: hidden;
 }
+
 
 #dojang-bg {
     position: absolute;
